@@ -98,7 +98,6 @@ class MMDWebSocket(ApplicationWebSocket):
         self.websocket_ping_interval = 0
         self.websocket_ping_timeout = float("inf")
         self.adaptation_loop.liveWebSocket = self
-        print self.tobii_controller.eyetrackers
 
         self.start_detection_components()
         self.tobii_controller.startTracking()

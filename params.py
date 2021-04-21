@@ -1,15 +1,8 @@
 # Eyetracker type
 # EYETRACKER_TYPE = "IS4_Large_Peripheral" # 4C eyetracker
-# EYETRACKER_TYPE = "Tobii T120" # Tobii T120
-EYETRACKER_TYPE = "Tobii Pro X3-120 EPU" # Tobii X3
-
-# Eyetracker socket
-if EYETRACKER_TYPE == "Tobii T120" or EYETRACKER_TYPE == "Tobii Pro X3-120 EPU":
-    EYE_TRACKER_SDK_SOCKET = "Tobii Research"
-elif EYETRACKER_TYPE == "IS4_Large_Peripheral":
-    EYE_TRACKER_SDK_SOCKET = "GazeServer"
-else:
-    raise("Unknown socket type.")
+#EYETRACKER_TYPE = "Tobii T120" # Old eyetracker
+EYETRACKER_TYPE = "simulation" # test
+# EYETRACKER_TYPE = "Tobii Pro X3-120 EPU" # Tobii X3
 
 
 SCREEN_SIZE_X = 1920

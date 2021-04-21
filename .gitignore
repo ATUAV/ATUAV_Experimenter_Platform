@@ -1,6 +1,7 @@
 .idea/*
 *.pyc
 *.DS_Store
+.vscode
 
 *.ipynb
 *.ipynb_checkpoints
